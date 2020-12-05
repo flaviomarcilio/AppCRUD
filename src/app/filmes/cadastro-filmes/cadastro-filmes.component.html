@@ -9,7 +9,7 @@
                 <fm-input-textarea titulo="Descrição" controlName="descricao" [formGroup]="cadastro"></fm-input-textarea>
                 <fm-input-number titulo="Nota IMDb *" controlName="nota" passo="0.1" [formGroup]="cadastro"></fm-input-number>
                 <fm-input-text titulo="Link IMDb" controlName="urlIMDb" [formGroup]="cadastro"></fm-input-text>
-                <fm-input-select titulo="Gênero *" controlName="genero" [formGroup]="cadastro"></fm-input-select>
+                <fm-input-select titulo="Gênero *" [opcoes]="generos" controlName="genero" [formGroup]="cadastro"></fm-input-select>
             </mat-card-content>
             <mat-card-actions>
             <button type="submit" color="accent" mat-raised-button>Salvar</button>
