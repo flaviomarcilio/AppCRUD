@@ -1,9 +1,11 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
 
+import { ConfigParams } from '../shared/models/config-params';
 import { Filme } from '../shared/models/filme';
+import { ConfigParamsService } from './config-params.service';
 
 const url = 'http://localhost:3000/filmes/';
 
@@ -12,16 +14,15 @@ const url = 'http://localhost:3000/filmes/';
 })
 export class FilmesService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient,
+              private configParamsServise: ConfigParamsService) { }
 
   salvar(filme: Filme): Observable<Filme> {
     return this.http.post<Filme>(url, filme);
   }
 
-  listar(pagina: number, qtdPagina: number): Observable<Filme[]> {
-    let httpParams = new HttpParams();
-    httpParams = httpParams.set('_page', pagina.toString());
-    httpParams = httpParams.set('_limit', qtdPagina.toString());
+  listar(config: ConfigParams): Observable<Filme[]> {
+    const httpParams = this.configParamsServise.configurarParamentros(config);
     return this.http.get<Filme[]>(url, { params: httpParams });
   }
 }
