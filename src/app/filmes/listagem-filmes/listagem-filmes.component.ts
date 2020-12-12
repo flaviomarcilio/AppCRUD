@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
+import { debounceTime } from 'rxjs/operators';
+
 import { FilmesService } from 'src/app/core/filmes.service';
 import { ConfigParams } from 'src/app/shared/models/config-params';
 import { Filme } from 'src/app/shared/models/filme';
@@ -11,6 +13,8 @@ import { Filme } from 'src/app/shared/models/filme';
   styleUrls: ['./listagem-filmes.component.scss']
 })
 export class ListagemFilmesComponent implements OnInit {
+
+  readonly semFoto = 'https://camaramaracanau.ce.gov.br/wp-content/uploads/2018/12/sem-foto.gif';
 
   config: ConfigParams = {
     pagina: 0,
@@ -29,7 +33,9 @@ export class ListagemFilmesComponent implements OnInit {
       genero: ['']
     });
 
-    this.filtrosListagem.get('texto').valueChanges.subscribe((value: string) => {
+    this.filtrosListagem.get('texto').valueChanges
+      .pipe(debounceTime(400))
+      .subscribe((value: string) => {
       this.config.pesquisa = value;
       this.resetarConsulta();
     });
