@@ -8,13 +8,15 @@ import { MaterialModule } from '../shared/material/material.module';
 import { CadastroFilmesComponent } from './cadastro-filmes/cadastro-filmes.component';
 import { ListagemFilmesComponent } from './listagem-filmes/listagem-filmes.component';
 import { CamposModule } from '../shared/components/campos/campos.module';
+import { VisualizarFilmeComponent } from './visualizar-filme/visualizar-filme.component';
 
 
 
 @NgModule({
   declarations: [
     CadastroFilmesComponent,
-    ListagemFilmesComponent
+    ListagemFilmesComponent,
+    VisualizarFilmeComponent
   ],
   imports: [
     CommonModule,
