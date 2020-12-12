@@ -1,5 +1,9 @@
 <mat-toolbar class="app-title">Filmes Cadastrados</mat-toolbar>
-<div class="home-content">
+
+<div class="home-content" infiniteScroll
+                          [infiniteScrollContainer]="'.app-content'"
+                          [fromRoot]="true"
+                          (scrolled)="onScroll()">
 
     <mat-card class="home-card" *ngFor="let filme of filmes">
         <mat-card-header>
@@ -17,7 +21,5 @@
             <button color="accent" mat-raised-button>ABRIR</button>
         </mat-card-actions>
     </mat-card>
-
-    
 
 </div>
