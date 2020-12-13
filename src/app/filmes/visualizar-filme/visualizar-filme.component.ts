@@ -25,8 +25,12 @@ export class VisualizarFilmeComponent implements OnInit {
               private filmesService: FilmesService) { }
 
   ngOnInit(): void {
-    this.id = this.activatedRoute.snapshot.params['id']
+    this.id = this.activatedRoute.snapshot.params['id'];
     this.visualizar();
+  }
+
+  editar(): void {
+    this.router.navigateByUrl('filmes/cadastro/' + this.id);
   }
 
   excluir(): void {
