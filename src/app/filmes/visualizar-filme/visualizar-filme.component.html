@@ -1,7 +1,7 @@
 <mat-list *ngIf="filme; else semRegistro">
     <mat-list-item>Título: {{ filme.titulo }}</mat-list-item>
     <mat-list-item>Gênero: {{ filme.genero }}</mat-list-item>
-    <mat-list-item>Data de Lançamento: {{ filme.dataLancamento | date: 'dd/MM/yyyy' }}</mat-list-item>
+    <mat-list-item>Data de Lançamento: {{ filme.dataLancamento }}</mat-list-item>
     <mat-list-item>Nota IMDb: <a [href]="filme.urlIMDb" target="blank">{{ filme.nota }}</a></mat-list-item>
     <mat-list-item class="quebrar-linha">Descrição: {{ filme.descricao }}</mat-list-item>
     <img mat-card-image [src]="filme.urlFoto || semFoto">

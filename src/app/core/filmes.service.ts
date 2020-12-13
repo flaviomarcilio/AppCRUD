@@ -21,6 +21,10 @@ export class FilmesService {
     return this.http.post<Filme>(url, filme);
   }
 
+  editar(filme: Filme): Observable<Filme> {
+    return this.http.put<Filme>(url + filme.id, filme);
+  }
+
   listar(config: ConfigParams): Observable<Filme[]> {
     const httpParams = this.configParamsServise.configurarParamentros(config);
     return this.http.get<Filme[]>(url, { params: httpParams });

@@ -1,13 +1,13 @@
 {
   "filmes": [
     {
-      "titulo": "Mistério no Mediterrâneo",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNTA2YTI5YjUtZWI4Zi00NWQ5LWFiYmEtOTBmNTUyNDAwNjllXkEyXkFqcGdeQXVyNjIzNzM4NzA@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dataLancamento": "14/06/2019",
-      "descricao": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.",
-      "nota": 6,
-      "urlIMDb": "https://www.imdb.com/title/tt1618434/?ref_=nv_sr_srsg_3",
-      "genero": "Comédia",
+      "titulo": "Bastardos Inglórios",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2009-10-09T03:00:00.000Z",
+      "descricao": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+      "nota": 8.3,
+      "urlIMDb": "https://www.imdb.com/title/tt0361748/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=7H8WTJD1FZGQ0EAE4BEA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_85",
+      "genero": "Aventura",
       "id": 1
     },
     {
@@ -49,6 +49,76 @@
       "urlIMDb": "https://www.imdb.com/title/tt0468569/?ref_=watch_tpks_tt_5",
       "genero": "Ação",
       "id": 8
+    },
+    {
+      "titulo": "Matrix",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "1999-05-21T03:00:00.000Z",
+      "descricao": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "nota": 8.7,
+      "urlIMDb": "https://www.imdb.com/title/tt0133093/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=7H8WTJD1FZGQ0EAE4BEA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_16",
+      "genero": "Ficção Científica",
+      "id": 9
+    },
+    {
+      "titulo": "Whiplash: Em Busca da Perfeição",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2015-01-08T02:00:00.000Z",
+      "descricao": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "nota": 8.5,
+      "urlIMDb": "https://www.imdb.com/title/tt2582802/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=7H8WTJD1FZGQ0EAE4BEA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_45",
+      "genero": "Drama",
+      "id": 10
+    },
+    {
+      "titulo": "Vingadores: Guerra Infinita",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2018-04-26T03:00:00.000Z",
+      "descricao": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+      "nota": 8.4,
+      "urlIMDb": "https://www.imdb.com/title/tt4154756/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=7H8WTJD1FZGQ0EAE4BEA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_64",
+      "genero": "Ação",
+      "id": 11
+    },
+    {
+      "titulo": "Vingadores: Ultimato",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2019-04-25T03:00:00.000Z",
+      "descricao": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "nota": 8.4,
+      "urlIMDb": "https://www.imdb.com/title/tt4154796/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=7H8WTJD1FZGQ0EAE4BEA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_75",
+      "genero": "Ação",
+      "id": 12
+    },
+    {
+      "titulo": "Mulan",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNDliY2E1MjUtNzZkOS00MzJlLTgyOGEtZDg4MTI1NzZkMTBhXkEyXkFqcGdeQXVyNjMwMzc3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2020-12-04T03:00:00.000Z",
+      "descricao": "A young Chinese maiden disguises herself as a male warrior in order to save her father.",
+      "nota": 5.5,
+      "urlIMDb": "https://www.imdb.com/title/tt4566758/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=ea4e08e1-c8a3-47b5-ac3a-75026647c16e&pf_rd_r=B1XZP9PV7FATHHEMYCNA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_10",
+      "genero": "Ação",
+      "id": 13
+    },
+    {
+      "titulo": "Homem-Aranha no Aranhaverso",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2019-01-10T02:00:00.000Z",
+      "descricao": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "nota": 8.4,
+      "urlIMDb": "https://www.imdb.com/title/tt4633694/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=ea4e08e1-c8a3-47b5-ac3a-75026647c16e&pf_rd_r=B1XZP9PV7FATHHEMYCNA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_51",
+      "genero": "Ação",
+      "id": 14
+    },
+    {
+      "titulo": "Mad Max: Estrada da Fúria",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dataLancamento": "2015-05-14T03:00:00.000Z",
+      "descricao": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "nota": 8.1,
+      "urlIMDb": "https://www.imdb.com/title/tt1392190/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=ea4e08e1-c8a3-47b5-ac3a-75026647c16e&pf_rd_r=B1XZP9PV7FATHHEMYCNA&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_77",
+      "genero": "Aventura",
+      "id": 15
     }
   ]
 }
