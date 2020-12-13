@@ -21,16 +21,6 @@
       "id": 2
     },
     {
-      "titulo": "Tenet",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dataLancamento": "2020-10-29T03:00:00.000Z",
-      "descricao": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-      "nota": 7.7,
-      "urlIMDb": "https://www.imdb.com/title/tt6723592/?ref_=watch_fanfav_tt_1",
-      "genero": "Ação",
-      "id": 3
-    },
-    {
       "titulo": "Coringa",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "dataLancamento": "2019-10-03T03:00:00.000Z",
@@ -49,26 +39,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt1375666/?ref_=watch_fanfav_tt_9",
       "genero": "Ação",
       "id": 5
-    },
-    {
-      "titulo": "Interestelar",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dataLancamento": "2014-11-06T02:00:00.000Z",
-      "descricao": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-      "nota": 8.6,
-      "urlIMDb": "https://www.imdb.com/title/tt0816692/?ref_=watch_fanfav_tt_11",
-      "genero": "Aventura",
-      "id": 6
-    },
-    {
-      "titulo": "Um Sonho de Liberdade",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dataLancamento": "1995-03-07T03:00:00.000Z",
-      "descricao": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "nota": 9.3,
-      "urlIMDb": "https://www.imdb.com/title/tt0111161/?ref_=watch_fanfav_tt_12",
-      "genero": "Drama",
-      "id": 7
     },
     {
       "titulo": "Batman: O Cavaleiro das Trevas",
