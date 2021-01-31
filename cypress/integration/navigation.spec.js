@@ -3,11 +3,12 @@
 context('Navegação', () => {
     beforeEach(() => {
       cy.visit('http://localhost:4200/filmes')
-      cy.get('.mat-toolbar').contains('Menu').click({ force: true })
-      cy.get('.mat-list-item-content').contains('Cadastrar novo Filme').click({ force: true })
     })
   
     it('Navega para a página de cadastro', () => {
+
+      cy.get('.mat-toolbar').contains('Menu').click({ force: true })
+      cy.get('.mat-list-item-content').contains('Cadastrar novo Filme').click({ force: true })
   
       cy.location('pathname').should('include', 'cadastro')
   
@@ -51,5 +52,24 @@ context('Navegação', () => {
           expect(typeof contentWindow === 'object').to.be.true
         },
       })
+    })
+
+    it('Navega para a página Detalhes e para página de edição', () => {
+      cy.get(':nth-child(3) > .mat-card-actions > .mat-focus-indicator > .mat-button-wrapper').click()
+
+      cy.get('.mat-list > :nth-child(1) > .mat-list-item-content').then(($span) => {
+
+        const titulo1 = $span.text().slice(8)
+
+        cy.get('.mat-accent > .mat-button-wrapper').click().then(() => {
+
+          cy.get('#mat-input-1').should('contain.value', titulo1)
+
+          // cy.get('#mat-input-1').should(($value) => {
+          //   expect($value, 'Título').to.have.value(titulo1)
+          // })
+
+        })
       })
+    })
   })

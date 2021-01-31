@@ -14,9 +14,57 @@ context('Actions', () => {
     genero: 'Action',
   }
 
+  const filmeInvalido = {
+    titulo: 'B',
+    urlFoto: 'https://m',
+    descricao: ' ',
+    nota: 11,
+    urlIMDb: 'https://w',
+    genero: '',
+  }
+
   // https://on.cypress.io/interacting-with-elements
 
-  it('Preenche o formulário', () => {
+  it('Verifica a validação do formulário vazio', () => {
+
+    cy.get('.mat-button-wrapper')
+      .contains('Salvar').click()
+
+    cy.get('.mat-error').should(($errors) => {
+      expect($errors).to.have.length(4)
+      expect($errors).to.contain('Campo Obrigatório')
+    })
+    
+  })
+
+  it('Verifica a validação para filme inválido', () => {
+
+    cy.get('#mat-input-0').type(filmeInvalido.titulo)
+
+    cy.get('#mat-input-1').type(filmeInvalido.urlFoto)
+
+    cy.get('#mat-input-3').type(filmeInvalido.descricao)
+
+    cy.get('#mat-input-4').type(filmeInvalido.nota)
+
+    cy.get('#mat-input-5').type(filmeInvalido.urlIMDb)
+
+    cy.get('.mat-button-wrapper')
+      .contains('Salvar').click()
+
+    cy.get('.mat-error').should(($errors) => {
+      expect($errors, '6 erros').to.have.length(6)
+      expect($errors.eq(0), 'Título').to.have.text(' O campo deve ter no mínimo 2 caracteres! ')
+      expect($errors.eq(1), 'Link Foto').to.have.text(' O campo deve ter no mínimo 10 caracteres! ')
+      expect($errors.eq(2), 'Data Lançamento').to.have.text('Campo Obrigatório')
+      expect($errors.eq(3), 'Nota').to.have.text(' O maior valor possível é 10 ')
+      expect($errors.eq(4), 'Link IMDb').to.have.text(' O campo deve ter no mínimo 10 caracteres! ')
+      expect($errors.eq(5), 'Gênero').to.have.text('Campo Obrigatório')
+    })
+
+  })
+
+  it('Verifica o cadastro de filme válido', () => {
     // https://on.cypress.io/type
     cy.get('#mat-input-0')
       .type(filmeValido.titulo).should('have.value', filmeValido.titulo)
@@ -41,10 +89,7 @@ context('Actions', () => {
       .click()
     cy.get('#mat-option-0')
       .click()
-  })
 
-  it('Salva um filme válido', () => {
-    // https://on.cypress.io/submit
     cy.get('.mat-button-wrapper')
       .contains('Salvar').click() 
   })
